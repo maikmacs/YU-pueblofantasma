@@ -31,7 +31,7 @@
     "cross-env": "^7.0.2",
     "dtsgenerator": "^2.6.0",
     "env-cmd": "^10.1.0",
-    "eslint": "^7.11.0",
+    "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.22.1",

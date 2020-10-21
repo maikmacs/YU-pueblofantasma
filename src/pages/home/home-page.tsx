@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <Container>
       <Header />
-      <Embead url="https://www.youtube.com/embed/ICuqzhViWAI" />
+      <Embead url="https://www.youtube.com/embed/U6czVIemtes" />
       <Title />
       <Bands items={bandsItems} />
       <GhostDivisor repeat={10} />
