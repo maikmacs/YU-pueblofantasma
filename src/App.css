@@ -1,0 +1,12 @@
+body{
+  color: #fff;
+  background-color: black ;
+  background-image: url('./assets/back-pueblo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+a:hover{
+  opacity: 0.8;
+}

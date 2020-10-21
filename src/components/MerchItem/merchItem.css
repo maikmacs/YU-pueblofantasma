@@ -1,0 +1,12 @@
+.merch-item{
+    text-align: center;
+}
+.merch-item img{
+    display: block;
+    margin: 20px auto;
+    max-width: -moz-fit-content;
+    max-height: 450px;
+}
+.merch-item a{
+    display: inline-block;
+}

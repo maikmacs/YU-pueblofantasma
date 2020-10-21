@@ -1,0 +1,11 @@
+ul.bands{
+    text-align: center;
+    list-style: none;
+    padding: 20px 0;
+}
+
+ul.bands li{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 1px 0px;
+}
