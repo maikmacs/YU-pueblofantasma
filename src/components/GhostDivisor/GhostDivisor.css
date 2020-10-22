@@ -6,3 +6,9 @@
 .ghost-divisor img{
     width: 5.5%;
 }
+
+@media only screen and (max-width: 800px) {
+    .ghost-divisor img{
+        width: 8%;
+    }
+}
