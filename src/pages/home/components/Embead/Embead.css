@@ -1,7 +1,13 @@
 .embead-player{
+    background-color: #000;
     text-align: center;
     height: 500px;
     max-width: 900px;
-    margin: 0 auto;
-    padding: 50px 0px;
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .embead-player{
+        height: 400px;
+    }
 }
