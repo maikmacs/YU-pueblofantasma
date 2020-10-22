@@ -11,3 +11,8 @@
 .merch-item a{
     display: inline-block;
 }
+
+#item-gorra{
+    max-width: 60%;
+
+}
