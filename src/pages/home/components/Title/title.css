@@ -1,8 +1,15 @@
 .pueblo-logo{
     text-align: center;
     font-size: 20px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
-.pueblo-logo h4{
+.pueblo-logo img{
+    max-width: 90%;
+}
+
+.pueblo-title h4{
+    text-align: center;
     text-transform: uppercase;
 }

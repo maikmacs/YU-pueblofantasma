@@ -6,6 +6,7 @@ ul.bands{
 
 ul.bands li{
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     padding: 1px 0px;
+    font-style: italic;
 }
