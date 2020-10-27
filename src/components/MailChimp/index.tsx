@@ -42,7 +42,7 @@ export default function MailChimp() {
             onChange={(event) => setEmail(event.currentTarget.value)}
           />
           <button type="submit" className="primary-button" aria-disabled="false" disabled={!email}>
-            Suscribir
+            Suscribirse
           </button>
         </div>
         <div
