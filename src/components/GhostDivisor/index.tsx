@@ -12,7 +12,7 @@ export default function GhostDivisor({ repeat }: GhostDivisorProps) {
   const ghostsLine = [];
 
   for (let i = 0; i < repeat; i++) {
-    ghostsLine.push(<img src={ghost} alt="ghost" />);
+    ghostsLine.push(<img key={i} src={ghost} alt="ghost" />);
   }
 
   return <div className={"ghost-divisor"}>{ghostsLine}</div>;

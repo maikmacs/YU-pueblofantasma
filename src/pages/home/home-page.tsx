@@ -6,6 +6,7 @@ import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import GhostDivisor from "../../components/GhostDivisor";
 import Header from "../../components/Header";
+import MailChimp from "../../components/MailChimp";
 import Bands from "./components/Bands";
 import Embead from "./components/Embead";
 import Merch from "./components/Merch";
@@ -43,6 +44,8 @@ export default function Home() {
       <Bands items={bandsItems} />
       <GhostDivisor repeat={10} />
       <Merch items={merchItems} />
+      <GhostDivisor repeat={10} />
+      <MailChimp />
       <Footer />
     </Container>
   );
