@@ -13,9 +13,9 @@ export type MerchItemProps = {
 export default function MerchItem({ name, img, link }: MerchItemProps) {
   return (
     <div className="merch-item">
-      <img src={img} id={`item-${name}`} alt={`item-${name}`} />
+      <img src={img} id={`item-${name}`} alt={`Merch Pueblo Fantasma item-${name}`} />
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img src={comprarBtn} />
+        <img src={comprarBtn} alt="Comprar" />
       </a>
     </div>
   );
